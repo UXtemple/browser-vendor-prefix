@@ -1,0 +1,30 @@
+{
+  "name": "browser-vendor-prefix",
+  "description": "Browser vendor prefixes exported as JSON objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index-test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UXtemple/browser-vendor-prefix.git"
+  },
+  "keywords": [
+    "browser",
+    "vendor",
+    "prefixes",
+    "json",
+    "simple"
+  ],
+  "author": "UXtemple <hi@uxtemple.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UXtemple/browser-vendor-prefix/issues"
+  },
+  "homepage": "https://github.com/UXtemple/browser-vendor-prefix#readme",
+  "devDependencies": {
+    "tape": "^4.2.0",
+    "semantic-release": "^4.3.5"
+  }
+}
