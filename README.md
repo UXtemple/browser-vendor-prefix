@@ -1,5 +1,7 @@
 # browser-vendor-prefix
 
+[![Build Status](https://travis-ci.org/UXtemple/browser-vendor-prefix.svg?branch=master)](https://travis-ci.org/UXtemple/browser-vendor-prefix)
+
 Browser vendor prefixes exported as JSON objects.
 
 It will provide sensible defaults for browsers that are lacking unprefixed styles.
