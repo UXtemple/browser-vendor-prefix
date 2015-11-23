@@ -8,6 +8,12 @@ test('browser-vendor-prefix', function(t) {
     WebkitAlignItems: 'center'
   }, 'alignItems: "center"');
 
+  t.deepEqual(s.alignSelfCenter, {
+    alignSelf: 'center',
+    msFlexAlign: 'center',
+    WebkitAlignSelf: 'center'
+  }, 'alignSelf: "center"');
+
   t.deepEqual(s.alignSelfFlexStart, {
     alignSelf: 'flex-start',
     msFlexAlign: 'flex-start',

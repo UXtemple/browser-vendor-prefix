@@ -6,6 +6,12 @@ s.alignItemsCenter = {
   WebkitAlignItems: 'center'
 };
 
+s.alignSelfCenter = {
+  alignSelf: 'center',
+  msFlexAlign: 'center',
+  WebkitAlignSelf: 'center'
+};
+
 s.alignSelfFlexStart = {
   alignSelf: 'flex-start',
   msFlexAlign: 'flex-start',
