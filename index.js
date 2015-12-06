@@ -1,26 +1,52 @@
 var s = {};
 
+s.alignItemsBaseline = {
+  alignItems: 'baseline',
+  WebkitAlignItems: 'baseline'
+};
+
 s.alignItemsCenter = {
   alignItems: 'center',
-  msFlexAlign: 'center',
   WebkitAlignItems: 'center'
+};
+
+s.alignItemsFlexStart = {
+  alignItems: 'flex-start',
+  WebkitAlignItems: 'flex-start'
+};
+
+s.alignItemsFlexEnd = {
+  alignItems: 'flex-end',
+  WebkitAlignItems: 'flex-end'
+};
+
+s.alignItemsStretch = {
+  alignItems: 'stretch',
+  WebkitAlignItems: 'stretch'
+};
+
+s.alignSelfBaseline = {
+  alignSelf: 'baseline',
+  WebkitAlignSelf: 'baseline'
 };
 
 s.alignSelfCenter = {
   alignSelf: 'center',
-  msFlexAlign: 'center',
   WebkitAlignSelf: 'center'
 };
 
 s.alignSelfFlexStart = {
   alignSelf: 'flex-start',
-  msFlexAlign: 'flex-start',
   WebkitAlignSelf: 'flex-start'
+};
+
+s.alignSelfFlexEnd = {
+  alignSelf: 'flex-end',
+  WebkitAlignSelf: 'flex-end'
 };
 
 s.alignSelfStretch = {
   alignSelf: 'stretch',
-  msFlexItemAlign: 'stretch',
   WebkitAlignSelf: 'stretch'
 };
 
@@ -31,19 +57,16 @@ s.flex1 = {
 
 s.flexDirectionRow = {
   flexDirection: 'row',
-  msFlexDirection: 'row',
   WebkitFlexDirection: 'row'
 };
 
 s.flexWrapWrap = {
   flexWrap: 'wrap',
-  msFlexWrap: 'wrap',
   WebkitFlexWrap: 'wrap'
 };
 
 s.justifyContentSpaceBetween = {
   justifyContent: 'space-between',
-  msFlexPack: 'justify',
   WebkitJustifyContent: 'space-between'
 }
 
