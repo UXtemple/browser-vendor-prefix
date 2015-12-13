@@ -65,9 +65,29 @@ s.flexWrapWrap = {
   WebkitFlexWrap: 'wrap'
 };
 
+s.justifyContentCenter = {
+  justifyContent: 'center',
+  WebkitJustifyContent: 'center'
+};
+
+s.justifyContentFlexEnd = {
+  justifyContent: 'flex-end',
+  WebkitJustifyContent: 'flex-end'
+};
+
+s.justifyContentFlexStart = {
+  justifyContent: 'flex-start',
+  WebkitJustifyContent: 'flex-start'
+};
+
+s.justifyContentSpaceAround = {
+  justifyContent: 'space-around',
+  WebkitJustifyContent: 'space-around'
+};
+
 s.justifyContentSpaceBetween = {
   justifyContent: 'space-between',
   WebkitJustifyContent: 'space-between'
-}
+};
 
 module.exports = s;

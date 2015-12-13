@@ -67,5 +67,30 @@ test('browser-vendor-prefix', function(t) {
     WebkitFlexWrap: 'wrap'
   }, 'flexWrap: "wrap"');
 
+  t.deepEqual(s.justifyContentCenter, {
+    justifyContent: 'center',
+    WebkitJustifyContent: 'center'
+  }, 'justifyContent: "center"');
+
+  t.deepEqual(s.justifyContentFlexStart, {
+    justifyContent: 'flex-start',
+    WebkitJustifyContent: 'flex-start'
+  }, 'justifyContent: "flex-start"');
+
+  t.deepEqual(s.justifyContentFlexEnd, {
+    justifyContent: 'flex-end',
+    WebkitJustifyContent: 'flex-end'
+  }, 'justifyContent: "flex-end"');
+
+  t.deepEqual(s.justifyContentSpaceAround, {
+    justifyContent: 'space-around',
+    WebkitJustifyContent: 'space-around'
+  }, 'justifyContent: "space-around"');
+
+  t.deepEqual(s.justifyContentSpaceBetween, {
+    justifyContent: 'space-between',
+    WebkitJustifyContent: 'space-between'
+  }, 'justifyContent: "space-between"');
+
   t.end();
 });
