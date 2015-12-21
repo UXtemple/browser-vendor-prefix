@@ -55,6 +55,11 @@ s.flex1 = {
   WebkitFlex: 1
 };
 
+s.flexDirectionColumn = {
+  flexDirection: 'column',
+  WebkitFlexDirection: 'column'
+};
+
 s.flexDirectionRow = {
   flexDirection: 'row',
   WebkitFlexDirection: 'row'

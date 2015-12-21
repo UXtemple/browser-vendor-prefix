@@ -57,6 +57,11 @@ test('browser-vendor-prefix', function(t) {
     WebkitFlex: 1
   }, 'flex: 1');
 
+  t.deepEqual(s.flexDirectionColumn, {
+    flexDirection: 'column',
+    WebkitFlexDirection: 'column'
+  }, 'flexDirection: "column"');
+
   t.deepEqual(s.flexDirectionRow, {
     flexDirection: 'row',
     WebkitFlexDirection: 'row'
